@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="color-scheme" content="dark light"> 
     <link rel="stylesheet" href="./styles/globals.css">
     <link rel="stylesheet" href="./fonts/fonts.css">
@@ -55,7 +55,7 @@
       </p>
     </header>
     <main class="main">
-      <section class="section">
+      <section class="section section__why">
         <h2 class="section__title">Почему сосредоточиться так сложно</h2>
         <article class="section__article">
           <h3 class="section__article-title title-decor">
@@ -72,7 +72,7 @@
             Из-за этого мы работаем невнимательно: ошибаемся и быстро устаём.
           </p>
         </article>
-
+          
         <article class="section__article">
           <h3 class="section__article-title title-decor">
             Дофамин
@@ -82,7 +82,7 @@
           </p>
         </article>
       </section>
-      <section class="section">
+      <section class="section section__what">
         <h2 class="section__title">Что снижает концентрацию внимания?</h2>
         <article class="section__article">
           <h3 class="section__article-title title-decor">
@@ -111,11 +111,11 @@
           </p>
         </article>
       </section>
-      <section class="section">
+      <section class="section section__how">
         <h2 class="section__title">Как концентрироваться лучше, чем золотая рыбка (то есть дольше трёх секунд)</h2>
-        <h3 class="section__article-title title-decor">5 простых (на самом деле не очень) советов</h3>
         <article class="section__article">
-          <h4 class="section__article-title title-decor section__article-title-card">
+          <h3 class="section__article-title title-decor section__title-card">5 простых (на самом деле не очень) советов</h3>
+          <h4 class="section__article-title title-decor">
             Представьте небо и облака
           </h4>
           <p class="section__article-text">
@@ -124,7 +124,7 @@
         </article>
         
         <article class="section__article">
-          <h4 class="section__article-title title-decor section__article-title-card">
+          <h4 class="section__article-title title-decor">
             Включите музыку
           </h4>
           <p class="section__article-text">
@@ -133,17 +133,17 @@
         </article>
 
         <article class="section__article">
-          <h4 class="section__article-title title-decor section__article-title-card">
+          <h4 class="section__article-title title-decor">
             Прогуляйтесь
           </h4>
           <p class="section__article-text">
-            Или даже пробегитесь. Лучше найти парк или лес: один эксперимент <a class="section__article-text-link">показал</a>, 
+            Или даже пробегитесь. Лучше найти парк или лес: один эксперимент <a href="https://www.sciencedirect.com/science/article/abs/pii/S0272494415000328" class="section__article-text-link">показал</a>, 
             что созерцание природы повышает концентрацию, в то время как после просмотра городских пейзажей она наоборот понижается. Можно совместить прогулку с физическими упражнениями или бегом — так в мозг поступит ещё больше кислорода и он будет лучше работать. Но и простая двадцатиминутная прогулка — тоже отличный вариант.
           </p>
         </article>
 
         <article class="section__article">
-          <h4 class="section__article-title title-decor section__article-title-card">
+          <h4 class="section__article-title title-decor">
             Хорошо ешьте
           </h4>
           <p class="section__article-text">
@@ -152,7 +152,7 @@
         </article>
 
         <article class="section__article">
-          <h4 class="section__article-title title-decor section__article-title-card">
+          <h4 class="section__article-title title-decor">
             Читайте
           </h4>
           <p class="section__article-text">
@@ -162,14 +162,15 @@
       </section>
       <section class="section__gallery">
         <h3 class="section__article-title title-decor">А можно в картинках?</h3>
-        <img src="./images/sunset.png" alt="sunset" loading="lazy" class="section__gallery-image">
-        <img src="./images/ice-cream.png" alt="sunset" loading="lazy" class="section__gallery-image">
-        <img src="./images/tape.png" alt="sunset" loading="lazy" class="section__gallery-image">
-        <img src="./images/books.png" alt="sunset" loading="lazy" class="section__gallery-image">
-        <img src="./images/street.png" alt="sunset" loading="lazy" class="section__gallery-image">
-      </section>
+        <div class="section__gallery-container-images">
+          <img src="./images/sunset.png" alt="sunset" loading="lazy" class="section__gallery-image section__gallery-image-sunset">
+          <img src="./images/ice-cream.png" alt="ice-cream" loading="lazy" class="section__gallery-image section__gallery-image-ice">
+          <img src="./images/tape.png" alt="tape" loading="lazy" class="section__gallery-image section__gallery-image-tape">
+          <img src="./images/books.png" alt="books" loading="lazy" class="section__gallery-image section__gallery-image-books">
+          <img src="./images/street.png" alt="street" loading="lazy" class="section__gallery-image section__gallery-image-street">
+        </div>
+        </section>
     </main>
-
     <footer class="footer decorated-zone">
       <h2 class="footer__title">focus</h2>
     </footer>

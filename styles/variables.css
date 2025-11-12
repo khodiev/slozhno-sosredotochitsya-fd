@@ -11,8 +11,13 @@
   --font-size: 18px;
   --text-color: #F1B2CE;
   --title-color: #DB00FF;
+  --shadow-header-color: #FF0070;
+  --shadow-footer-color: #FF0070;
+  --title-decor-color: #FF0070;
+  --outline-hover-color: rgba(255, 0, 112, 0.4);
   --gap-page: 40px;
   --gap-main: 50px;
   --gap-section: 20px;
   --line-height: 23.4px;
 }
+
