@@ -2,7 +2,7 @@
 
 .page {
   /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
-  font-family: var(--font-family, sans-serif);
+  font-family: var(--font-family, monospace);
   background-color: var(--bg-color);
   background-image: var(--bg-image);
   background-position: center;
@@ -93,11 +93,15 @@
 }
 
 .header__theme-menu-button:hover {
-  outline: 1px solid var(--outline-hover-color);
+  border: 1px solid var(--outline-hover-color);
 }
 
 .header__theme-menu-button_type_dark {
   outline: 1px solid var(--accent-color);
+}
+
+.header__theme-menu-button_type_light {
+  outline: none;
 }
 
 .header__theme-menu-button_active {

@@ -20,3 +20,15 @@
   --title-decor-color: #FF0070;
   --outline-hover-color: rgba(255, 0, 112, 0.4);
 }
+
+:root.theme-dark .header__theme-menu-button_type_light {
+  outline: none;
+}
+
+:root.theme-dark .header__theme-menu-button_type_dark {
+  outline: 1px solid var(--accent-color);
+}
+
+:root.theme-dark .rec-label {
+    display: flex;
+}
