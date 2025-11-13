@@ -30,5 +30,9 @@
 }
 
 :root.theme-dark .rec-label {
-    display: flex;
+  display: flex;
+}
+
+:root.theme-dark .header__theme-menu-button_type_auto {
+  outline: none;
 }

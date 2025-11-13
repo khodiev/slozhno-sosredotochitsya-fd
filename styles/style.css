@@ -96,12 +96,8 @@
   border: 1px solid var(--outline-hover-color);
 }
 
-.header__theme-menu-button_type_dark {
+.header__theme-menu-button_type_auto {
   outline: 1px solid var(--accent-color);
-}
-
-.header__theme-menu-button_type_light {
-  outline: none;
 }
 
 .header__theme-menu-button_active {

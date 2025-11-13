@@ -10,7 +10,7 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   --bg-image: url(../images/cover-image-light.png);
-  --bg-color: #fff;
+  --bg-color: #FFF1F7;
   --title-text-color: #353430;
   --accent-color: #353430;
   --text-color: #353430;  
@@ -25,6 +25,10 @@
   outline: none;
 }
 
+:root.theme-light .header__theme-menu-button_type_auto {
+  outline: none;
+}
+
 :root.theme-light .header__theme-menu-button_type_light {
   outline: 1px solid var(--accent-color);
 }
@@ -36,7 +40,7 @@
 @media (prefers-color-scheme: light) {
   :root {
     --bg-image: url(../images/cover-image-light.png);
-    --bg-color: #fff;
+    --bg-color: #FFF1F7;
     --title-text-color: #353430;
     --accent-color: #353430;
     --text-color: #353430;  
@@ -51,7 +55,7 @@
     outline: none;
   }
 
-  .header__theme-menu-button_type_light {
+  .header__theme-menu-button_type_auto {
     outline: 1px solid var(--accent-color);
   }
 
