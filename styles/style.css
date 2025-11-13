@@ -106,7 +106,6 @@
 
 .rec-label {
   width: 52px;
-  height: 26px;
   position: absolute;
   margin-block-start: var(--padding);
   right: 9px;
@@ -141,7 +140,7 @@
 .header__text {
   align-self: center;
   justify-self: end;
-  color: var(--bg-color, #000028);
+  color: var(--title-text-color, #000028);
   font-weight: 700;
   font-size: var(--font-size, 18px);
 
@@ -176,7 +175,7 @@
 }
 
 .section__article-title {
-  color: var(--bg-color);
+  color: var(--title-text-color);
   font-weight: 700;
   font-size: var(--font-size);
 }
